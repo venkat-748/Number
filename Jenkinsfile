@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Build'){
       steps {
-          git ''
+          git 'https://github.com/venkat-748/Number.git'
           
       }
     }
